@@ -61,7 +61,47 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+   
 }
 .absolute{ 
     position: absolute;
+left: 50%;
+transform: translate(-50%);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 500px;
+    gap: 20px;
+
+}
+.new_game { 
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.roll_dice{ 
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hold{ 
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
